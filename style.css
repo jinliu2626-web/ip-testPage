@@ -196,6 +196,19 @@ footer {
     }
 }
 
+/* Portrait Phone Screens */
+@media (max-width: 480px) and (orientation: portrait) {
+    #header-photo {
+        width: 200px;
+        height: 60px;
+        right: var(--spacing-xs);
+    }
+
+    header h1 {
+        font-size: 1.2rem;
+    }
+}
+
 /* Animations */
 @keyframes fadeIn {
     from {
